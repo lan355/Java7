@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "ru" dir = "ltr">
+  <head>
+    <meta charset = "utf-8">
+    <title>Modal window</title>
+    <link rel = "stylesheet" href = "style.css">
+  </head>
+  <body>
+    <a href = "#" class = "modal js-modal-show" data-modal = "modal1">Demo modal</a>
+    <div class = "modal-header js-modal" data-modal = "modal1">
+      <h2>Модальное окно</h2>
+      <svg class="modal-cross js-modal-cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+      <p>Поздравляем вы открыли модальное окно)</p>
+      <div class="modal-footer">
+        <a href = "#" class = "modal-close js-modal-close">Close</a>
+        <a href = "#" class = "modal-confirm js-modal-confirm">Confirm</a>
+      </div>
+    </div>
+
+
+<!--подложка под модальным окном -->
+    <div class = "overlay js-modal-overlay"></div>
+    <script src = "script.js"></script>
+  </body>
+</html>
